@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<s:TitleWindow xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
+               xmlns:mx="library://ns.adobe.com/flex/mx" width="400" height="200">
+
+    <fx:Script><![CDATA[
+        import mx.managers.PopUpManager;
+
+        private function button1_clickHandler(event:MouseEvent):void
+        {
+            PopUpManager.removePopUp(this);
+        }
+
+        ]]></fx:Script>
+
+
+    <s:layout>
+        <s:VerticalLayout gap="16" horizontalAlign="center" paddingTop="50"/>
+    </s:layout>
+    <mx:Button id = "restartBtn" label="Закрыть" click="button1_clickHandler(event)"/>
+    <mx:Label id = "textLabel"  text="Поздравляем, вы выиграли!" textAlign="center"/>
+</s:TitleWindow>

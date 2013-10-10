@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<room bg="bg.jpg">
+    <item caption="Объект А" image="1.jpg ">
+        <place1 x="80" y="34"/>
+        <place2 x="40" y="333"/>
+        <place3 x="30" y="3"/>
+    </item>
+    <item caption="Объект Б" image="2.jpg ">
+        <place1 x="10" y="147"/>
+        <place2 x="20" y="134"/>
+        <place3 x="310" y="342"/>
+    </item>
+    <item caption="Объект В" image="3.jpg ">
+        <place1 x="180" y="247"/>
+        <place2 x="140" y="234"/>
+        <place3 x="100" y="242"/>
+    </item>
+</room>
